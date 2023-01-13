@@ -1,0 +1,2 @@
+kubectl apply -f mysql.yml
+kubectl port-foward pod/mysql-pod 3306:3306
